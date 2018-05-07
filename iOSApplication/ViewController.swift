@@ -38,6 +38,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 let Calling = ((gettingJson)[0] as![String: Any])
                // print((Calling)["categoryImage"]!)
                 self.SampleArr = gettingJson
+                print("Sudarshan")
                 
                 DispatchQueue.main.async {
                     self.table.reloadData()
